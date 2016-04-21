@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DevOps.LoadTest.Web</title>
+
+    <link rel="stylesheet" href="~/css/hyde.css">
+    <link rel="stylesheet" href="~/css/poole.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+</head>
+<body class="theme-base-08 layout-reverse">
+
+    <div class="sidebar">
+        <div class="container sidebar-sticky">
+
+            <div class="sidebar-about">
+                <div id="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <h1>
+                    <a href="http://fernandoescolar.github.io/">
+                        DevOps
+                    </a>
+                </h1>
+                <p id="sidebar-description" class="lead">Community Roadshow by @Html.Raw("@fernandoescolar")</p>
+            </div>
+
+            <nav id="sidebar-nav" class="sidebar-nav">
+                <a class="sidebar-nav-item" href="http://fernandoescolar.github.io/">Blog</a>
+                <a class="sidebar-nav-item" href="http://www.github.com/fernandoescolar">Github</a>
+                <a class="sidebar-nav-item" href="http://www.twitter.com/fernandoescolar">Twitter</a>
+                <a class="sidebar-nav-item" href="http://www.tokiota.com">Tokiota</a>
+            </nav>
+            <p id="sidebar-copy">© 2016. All rights reserved.</p>
+        </div>
+    </div>
+
+    <div class="content container">
+        @RenderBody()
+    </div>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

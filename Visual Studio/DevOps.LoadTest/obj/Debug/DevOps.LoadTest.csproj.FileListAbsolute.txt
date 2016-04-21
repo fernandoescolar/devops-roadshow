@@ -1,0 +1,11 @@
+C:\projects\DevOps.LoadTest\DevOps.LoadTest\bin\Debug\DevOps.LoadTest.dll
+C:\projects\DevOps.LoadTest\DevOps.LoadTest\bin\Debug\DevOps.LoadTest.pdb
+C:\projects\DevOps.LoadTest\DevOps.LoadTest\bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll
+C:\projects\DevOps.LoadTest\DevOps.LoadTest\bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.xml
+C:\projects\DevOps.LoadTest\DevOps.LoadTest\obj\Debug\DevOps.LoadTest.csprojResolveAssemblyReference.cache
+C:\projects\DevOps.LoadTest\DevOps.LoadTest\obj\Debug\DevOps.LoadTest.dll
+C:\projects\DevOps.LoadTest\DevOps.LoadTest\obj\Debug\DevOps.LoadTest.pdb
+C:\projects\DevOps.LoadTest\DevOps.LoadTest\bin\Debug\Visit.webtest
+C:\projects\DevOps.LoadTest\DevOps.LoadTest\bin\Debug\ConsumeMemory.webtest
+C:\projects\DevOps.LoadTest\DevOps.LoadTest\bin\Debug\ConsumeCpu.webtest
+C:\projects\DevOps.LoadTest\DevOps.LoadTest\bin\Debug\ARegularWebUser.loadtest

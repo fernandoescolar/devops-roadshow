@@ -1,0 +1,16 @@
+﻿@model DevOps.LoadTest.Web.Models.CpuConsumeRequest
+@{
+    ViewData["Title"] = "CPU Consumer";
+}
+<p>
+    @ViewBag.Message
+</p>
+<h1>CPU Consumer</h1>
+<form asp-action="ConsumeCpu" asp-controller="Consumer" method="post">
+    <label for="Percentage">Percentage:</label>
+    <input type="number" asp-for="Percentage" />
+    <br />
+    <label for="Seconds">Seconds:</label>
+    <input type="number" asp-for="Seconds" /><br />
+    <input type="submit" value="Send" />
+</form>

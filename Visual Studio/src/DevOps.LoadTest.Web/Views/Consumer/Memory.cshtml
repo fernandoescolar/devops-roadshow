@@ -1,0 +1,16 @@
+﻿@model DevOps.LoadTest.Web.Models.MemoryConsumeRequest
+@{
+    ViewData["Title"] = "Memory Consumer";
+}
+<p>
+    @ViewBag.Message
+</p>
+<h1>Memory Consumer</h1>
+<form asp-action="ConsumeMemory" asp-controller="Consumer" method="post">
+    <label for="Percentage">Megabytes:</label>
+    <input type="number" asp-for="Megabytes" />
+    <br />
+    <label for="Seconds">Seconds:</label>
+    <input type="number" asp-for="Seconds" /><br />
+    <input type="submit" value="Send" />
+</form>

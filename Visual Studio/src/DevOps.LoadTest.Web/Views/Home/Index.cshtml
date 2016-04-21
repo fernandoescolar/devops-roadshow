@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Consumers";
+}
+
+<div class="posts">
+    <div class="post">
+        <h1>Load Testing and Auto-Scaling</h1>
+        <p>A continuación algunas acciones que realizan un alto consumo en la máquina en la que esta aplicación esté hospedada.</p>
+    </div>
+
+    <div class="post">
+        <h2 class="post-title">
+            Cpu consumer
+        </h2>
+        <p>
+            Aumenta el consumo de cpu mientras se ejecuta.
+        </p>
+        <a asp-action="Cpu" asp-controller="Consumer">Ir al <i>consumer</i> de CPU</a>
+    </div>
+
+    <div class="post">
+        <h2 class="post-title">
+            Memory consumer
+        </h2>
+        <p>
+            Aumenta el consumo de memoria RAM mientras se ejecuta
+        </p>
+        <a asp-action="Memory" asp-controller="Consumer">Ir al <i>consumer</i> de Memory</a>
+    </div>
+</div>

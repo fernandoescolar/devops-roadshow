@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DBB8A848-68FC-488A-ABF5-D53C76D0A8FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2DF8292-8261-4E59-8C36-CA3BC5B5DA20}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		Local.testsettings = Local.testsettings
+		PreBuild.ps1 = PreBuild.ps1
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DevOps.LoadTest.Web", "src\DevOps.LoadTest.Web\DevOps.LoadTest.Web.xproj", "{0E221208-4DFE-47E7-87BA-2D6B2E149EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.LoadTest", "DevOps.LoadTest\DevOps.LoadTest.csproj", "{82C44772-CDC9-434F-9933-2C732FA8DD9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.LoadTest.AutoScaling", "DevOps.LoadTest.AutoScaling\DevOps.LoadTest.AutoScaling.csproj", "{A39BE309-DC2F-42DB-B829-725D97ED7744}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E221208-4DFE-47E7-87BA-2D6B2E149EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E221208-4DFE-47E7-87BA-2D6B2E149EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E221208-4DFE-47E7-87BA-2D6B2E149EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E221208-4DFE-47E7-87BA-2D6B2E149EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C44772-CDC9-434F-9933-2C732FA8DD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C44772-CDC9-434F-9933-2C732FA8DD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C44772-CDC9-434F-9933-2C732FA8DD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C44772-CDC9-434F-9933-2C732FA8DD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A39BE309-DC2F-42DB-B829-725D97ED7744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39BE309-DC2F-42DB-B829-725D97ED7744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39BE309-DC2F-42DB-B829-725D97ED7744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39BE309-DC2F-42DB-B829-725D97ED7744}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E221208-4DFE-47E7-87BA-2D6B2E149EEB} = {DBB8A848-68FC-488A-ABF5-D53C76D0A8FD}
+		{82C44772-CDC9-434F-9933-2C732FA8DD9B} = {DBB8A848-68FC-488A-ABF5-D53C76D0A8FD}
+		{A39BE309-DC2F-42DB-B829-725D97ED7744} = {DBB8A848-68FC-488A-ABF5-D53C76D0A8FD}
+	EndGlobalSection
+EndGlobal
